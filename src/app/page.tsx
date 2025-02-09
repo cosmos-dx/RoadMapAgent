@@ -1,8 +1,12 @@
 "use client";
 import HeroSection from "@/components/HeroSection/HeroSection";
+import MarkDownMD from "@/components/MarkDownMD/MarkDownMD";
 import { NavBar } from "@/components/NavBar/NavBar";
+import { useState } from "react";
 
 export default function Home() {
+
+
   return (
     <>
     <div className="w-[100vw] h-[100vh]">
@@ -18,3 +22,5 @@ export default function Home() {
     </>
   );
 }
+
+
